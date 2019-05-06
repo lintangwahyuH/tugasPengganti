@@ -58,9 +58,9 @@ void update(puskesmas)
 
        cout<<"silahkan pilih data pasien yang mau di perbarui"<<endl;
         int k,l;
-        cout<<"Masukan Data yang akan diedit : ";cin>>k;
+        cout<<"Masukan Data yang akan diperbarui : ";cin>>k;
         l=k-1;
-        cout<<"NIM\t: ";cin>>pustu[l].nik;
+        cout<<"NIK\t: ";cin>>pustu[l].nik;
         cout<<"Nama\t: ";cin>>pustu[l].nama;
         cout<<"Alamtt: ";cin>>pustu[l].alamat;
         cout<<"Jenis Kelamin\t: ";cin>>pustu[l].jk;
